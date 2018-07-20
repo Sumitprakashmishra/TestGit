@@ -1,0 +1,12 @@
+
+*, *::after, *::before{
+    margin:0px;
+    padding:0px;
+    box-sizing: inherit /*the width will be padding + border +content*/
+}
+html{
+    font-size: 62.5%; /*1 rem =10px or 62.5% of 16px*/
+}
+body{
+    box-sizing: border-box;
+}
